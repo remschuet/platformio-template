@@ -25,7 +25,7 @@ jobs:
         pip install platformio
 
     - name: Run native unit tests
-      run: platformio test -e test_native
+      run: platformio test -e native
 
     - name: Build for Arduino Uno
       run: platformio run -e uno
