@@ -26,5 +26,3 @@ jobs:
 
     - name: Run native unit tests
       run: platformio test -e native
-v
-    
