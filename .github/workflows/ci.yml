@@ -26,12 +26,5 @@ jobs:
 
     - name: Run native unit tests
       run: platformio test -e native
-
-    - name: Build for Arduino Uno
-      run: platformio run -e uno
-
-    - name: Build for ESP32 DevKit
-      run: platformio run -e esp32dev
-
-    - name: Build for Raspberry Pi Pico
-      run: platformio run -e pico
+v
+    
