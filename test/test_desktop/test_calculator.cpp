@@ -14,7 +14,7 @@
  limitations under the License.
 **/
 
-#include <calculator.h>
+#include "calculator.h"
 #include <unity.h>
 
 Calculator calc;
