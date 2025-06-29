@@ -28,7 +28,7 @@ void tearDown(void) {
 }
 
 void test_calculator_addition(void) {
-    TEST_ASSERT_EQUAL(34, calc.add(25, 7));
+    TEST_ASSERT_EQUAL(32, calc.add(25, 7));
 }
 
 void test_calculator_subtraction(void) {
